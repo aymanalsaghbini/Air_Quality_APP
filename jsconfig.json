@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@app/*": ["./src/app/*"]
+		},
+		"module": "commonjs",
+		"target": "es2016",
+		"jsx": "preserve",
+		"checkJs": false
+	},
+	"exclude": ["node_modules", "**/node_modules/*", "src/**/*.ts", "src/**/*.tsx"]
+}
